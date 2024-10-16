@@ -1,0 +1,53 @@
+.header {
+    background-color: #010C13;
+    height: 108px;
+    min-height: 54px;
+    padding-left: 219px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+}
+
+.line {
+    width: 2px;
+    height: 68px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        height: 54px;
+        padding-top: 9px;
+        padding-bottom: 15px;
+        padding-left: 12px;
+        padding-right: 13px;
+    }
+
+    .line {
+        height: 25px;
+    }
+
+    .name {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+
+    .logo {
+        width: 111px;
+        height: 30px;
+    }
+}
